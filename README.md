@@ -55,7 +55,7 @@ In this project, you take a fairly complex application used to search a movie da
 
 -   [x] **We can delete movies within the Movie Component.** Connect the deleteMovie action through the connect method.
 
--   [ ] **Find the HTML element that should trigger a deletion in the movie component.** Create and connect the necessary event handlers to call deleteMovie on the current movie's id. After setting the state, redirect the user using the push('/movies') command.
+-   [x] **Find the HTML element that should trigger a deletion in the movie component.** Create and connect the necessary event handlers to call deleteMovie on the current movie's id. After setting the state, redirect the user using the push('/movies') command.
 
 -   [ ] Add in an ADD_MOVIE case to movieReducer.js.
 -   [ ] Make this new case return a version of state with new movie values passed in through the payload.
